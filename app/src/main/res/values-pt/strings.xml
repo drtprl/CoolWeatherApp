@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cool Weather APP</string>
+    <string name="vento_vel">Vel. Vento</string>
+    <string name="temperatura">Temperatura</string>
+    <string name="humidade">Humidade</string>
+    <string name="precipitacao">Precipitação</string>
+    <string name="cidade">Cidade</string>
+    <string name="refresh">Atualizar</string>
+</resources>

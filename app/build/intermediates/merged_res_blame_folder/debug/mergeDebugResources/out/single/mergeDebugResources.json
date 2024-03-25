@@ -1,0 +1,194 @@
+[
+    {
+        "merged": "dam.a47736.coolweatherapp-debug-4:/layout_activity_main.xml.flat",
+        "source": "dam.a47736.coolweatherapp-main-6:/layout/activity_main.xml"
+    },
+    {
+        "merged": "dam.a47736.coolweatherapp-debug-4:/drawable_mostly_clear_night.xml.flat",
+        "source": "dam.a47736.coolweatherapp-main-6:/drawable/mostly_clear_night.xml"
+    },
+    {
+        "merged": "dam.a47736.coolweatherapp-debug-4:/drawable_flurries.xml.flat",
+        "source": "dam.a47736.coolweatherapp-main-6:/drawable/flurries.xml"
+    },
+    {
+        "merged": "dam.a47736.coolweatherapp-debug-4:/drawable_freezing_rain.xml.flat",
+        "source": "dam.a47736.coolweatherapp-main-6:/drawable/freezing_rain.xml"
+    },
+    {
+        "merged": "dam.a47736.coolweatherapp-debug-4:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "dam.a47736.coolweatherapp-main-6:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "dam.a47736.coolweatherapp-debug-4:/drawable_freezing_rain_heavy.xml.flat",
+        "source": "dam.a47736.coolweatherapp-main-6:/drawable/freezing_rain_heavy.xml"
+    },
+    {
+        "merged": "dam.a47736.coolweatherapp-debug-4:/drawable_mostly_cloudy.xml.flat",
+        "source": "dam.a47736.coolweatherapp-main-6:/drawable/mostly_cloudy.xml"
+    },
+    {
+        "merged": "dam.a47736.coolweatherapp-debug-4:/xml_backup_rules.xml.flat",
+        "source": "dam.a47736.coolweatherapp-main-6:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "dam.a47736.coolweatherapp-debug-4:/drawable_sunny_bg.jpg.flat",
+        "source": "dam.a47736.coolweatherapp-main-6:/drawable/sunny_bg.jpg"
+    },
+    {
+        "merged": "dam.a47736.coolweatherapp-debug-4:/drawable_partly_cloudy_day.xml.flat",
+        "source": "dam.a47736.coolweatherapp-main-6:/drawable/partly_cloudy_day.xml"
+    },
+    {
+        "merged": "dam.a47736.coolweatherapp-debug-4:/drawable_freezing_drizzle.xml.flat",
+        "source": "dam.a47736.coolweatherapp-main-6:/drawable/freezing_drizzle.xml"
+    },
+    {
+        "merged": "dam.a47736.coolweatherapp-debug-4:/drawable_night_bg_land.jpg.flat",
+        "source": "dam.a47736.coolweatherapp-main-6:/drawable/night_bg_land.jpg"
+    },
+    {
+        "merged": "dam.a47736.coolweatherapp-debug-4:/drawable_drizzle.xml.flat",
+        "source": "dam.a47736.coolweatherapp-main-6:/drawable/drizzle.xml"
+    },
+    {
+        "merged": "dam.a47736.coolweatherapp-debug-4:/drawable_night_bg.jpg.flat",
+        "source": "dam.a47736.coolweatherapp-main-6:/drawable/night_bg.jpg"
+    },
+    {
+        "merged": "dam.a47736.coolweatherapp-debug-4:/drawable_partly_cloudy_night.xml.flat",
+        "source": "dam.a47736.coolweatherapp-main-6:/drawable/partly_cloudy_night.xml"
+    },
+    {
+        "merged": "dam.a47736.coolweatherapp-debug-4:/drawable_rain_light.xml.flat",
+        "source": "dam.a47736.coolweatherapp-main-6:/drawable/rain_light.xml"
+    },
+    {
+        "merged": "dam.a47736.coolweatherapp-debug-4:/drawable_ice_pellets_heavy.xml.flat",
+        "source": "dam.a47736.coolweatherapp-main-6:/drawable/ice_pellets_heavy.xml"
+    },
+    {
+        "merged": "dam.a47736.coolweatherapp-debug-4:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "dam.a47736.coolweatherapp-main-6:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "dam.a47736.coolweatherapp-debug-4:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "dam.a47736.coolweatherapp-main-6:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "dam.a47736.coolweatherapp-debug-4:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "dam.a47736.coolweatherapp-main-6:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "dam.a47736.coolweatherapp-debug-4:/drawable_cloudy.xml.flat",
+        "source": "dam.a47736.coolweatherapp-main-6:/drawable/cloudy.xml"
+    },
+    {
+        "merged": "dam.a47736.coolweatherapp-debug-4:/drawable_rain.xml.flat",
+        "source": "dam.a47736.coolweatherapp-main-6:/drawable/rain.xml"
+    },
+    {
+        "merged": "dam.a47736.coolweatherapp-debug-4:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "dam.a47736.coolweatherapp-main-6:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "dam.a47736.coolweatherapp-debug-4:/drawable_mostly_clear_day.xml.flat",
+        "source": "dam.a47736.coolweatherapp-main-6:/drawable/mostly_clear_day.xml"
+    },
+    {
+        "merged": "dam.a47736.coolweatherapp-debug-4:/drawable_snow.xml.flat",
+        "source": "dam.a47736.coolweatherapp-main-6:/drawable/snow.xml"
+    },
+    {
+        "merged": "dam.a47736.coolweatherapp-debug-4:/drawable_ice_pellets_light.xml.flat",
+        "source": "dam.a47736.coolweatherapp-main-6:/drawable/ice_pellets_light.xml"
+    },
+    {
+        "merged": "dam.a47736.coolweatherapp-debug-4:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "dam.a47736.coolweatherapp-main-6:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "dam.a47736.coolweatherapp-debug-4:/layout-land_activity_main.xml.flat",
+        "source": "dam.a47736.coolweatherapp-main-6:/layout-land/activity_main.xml"
+    },
+    {
+        "merged": "dam.a47736.coolweatherapp-debug-4:/drawable_fog.xml.flat",
+        "source": "dam.a47736.coolweatherapp-main-6:/drawable/fog.xml"
+    },
+    {
+        "merged": "dam.a47736.coolweatherapp-debug-4:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "dam.a47736.coolweatherapp-main-6:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "dam.a47736.coolweatherapp-debug-4:/xml_data_extraction_rules.xml.flat",
+        "source": "dam.a47736.coolweatherapp-main-6:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "dam.a47736.coolweatherapp-debug-4:/drawable_sunny_bg_land.jpg.flat",
+        "source": "dam.a47736.coolweatherapp-main-6:/drawable/sunny_bg_land.jpg"
+    },
+    {
+        "merged": "dam.a47736.coolweatherapp-debug-4:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "dam.a47736.coolweatherapp-main-6:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "dam.a47736.coolweatherapp-debug-4:/drawable_fog_light.xml.flat",
+        "source": "dam.a47736.coolweatherapp-main-6:/drawable/fog_light.xml"
+    },
+    {
+        "merged": "dam.a47736.coolweatherapp-debug-4:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "dam.a47736.coolweatherapp-main-6:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "dam.a47736.coolweatherapp-debug-4:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "dam.a47736.coolweatherapp-main-6:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "dam.a47736.coolweatherapp-debug-4:/drawable_rain_heavy.xml.flat",
+        "source": "dam.a47736.coolweatherapp-main-6:/drawable/rain_heavy.xml"
+    },
+    {
+        "merged": "dam.a47736.coolweatherapp-debug-4:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "dam.a47736.coolweatherapp-main-6:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "dam.a47736.coolweatherapp-debug-4:/drawable_ic_launcher_background.xml.flat",
+        "source": "dam.a47736.coolweatherapp-main-6:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "dam.a47736.coolweatherapp-debug-4:/drawable_clear_night.xml.flat",
+        "source": "dam.a47736.coolweatherapp-main-6:/drawable/clear_night.xml"
+    },
+    {
+        "merged": "dam.a47736.coolweatherapp-debug-4:/drawable_clear_day.xml.flat",
+        "source": "dam.a47736.coolweatherapp-main-6:/drawable/clear_day.xml"
+    },
+    {
+        "merged": "dam.a47736.coolweatherapp-debug-4:/drawable_snow_heavy.xml.flat",
+        "source": "dam.a47736.coolweatherapp-main-6:/drawable/snow_heavy.xml"
+    },
+    {
+        "merged": "dam.a47736.coolweatherapp-debug-4:/drawable_snow_light.xml.flat",
+        "source": "dam.a47736.coolweatherapp-main-6:/drawable/snow_light.xml"
+    },
+    {
+        "merged": "dam.a47736.coolweatherapp-debug-4:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "dam.a47736.coolweatherapp-main-6:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "dam.a47736.coolweatherapp-debug-4:/drawable_ice_pellets.xml.flat",
+        "source": "dam.a47736.coolweatherapp-main-6:/drawable/ice_pellets.xml"
+    },
+    {
+        "merged": "dam.a47736.coolweatherapp-debug-4:/drawable_freezing_rain_light.xml.flat",
+        "source": "dam.a47736.coolweatherapp-main-6:/drawable/freezing_rain_light.xml"
+    },
+    {
+        "merged": "dam.a47736.coolweatherapp-debug-4:/drawable_tstorm.xml.flat",
+        "source": "dam.a47736.coolweatherapp-main-6:/drawable/tstorm.xml"
+    },
+    {
+        "merged": "dam.a47736.coolweatherapp-debug-4:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "dam.a47736.coolweatherapp-main-6:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    }
+]

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Cool Weather APP</string>
+    <string name="temperatura">Temperatura</string>
+    <string name="temperatura_valor" translatable="false" />
+    <string name="humidade_val" translatable="false" />
+    <string name="vento_vel">Vel Vento</string>
+    <string name="humidade">Humidade</string>
+    <string name="vento_vel_val" translatable="false" />
+    <string name="precipitacao">Precipitação</string>
+    <string name="precipitacao_val" translatable="false" />
+    <string name="cidade">Cidade</string>
+    <string name="weather_icon" translatable="false">Weather Icon</string>
+    <string name="refresh">Refresh</string>
+</resources>

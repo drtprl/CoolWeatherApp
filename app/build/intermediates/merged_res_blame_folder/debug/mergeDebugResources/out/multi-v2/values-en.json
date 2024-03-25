@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "dam.a47736.coolweatherapp-mergeDebugResources-2:/values-en/values-en.xml",
+            "map": [
+                {
+                    "source": "C:\\LEIM\\6SEMESTRE\\DAM\\CODE\\CoolWeatherAPP\\app\\src\\main\\res\\values-en\\strings.xml",
+                    "from": {
+                        "startLines": "2,7,5,6,8,3,4",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "57,316,213,260,357,112,165",
+                        "endColumns": "53,39,45,54,43,51,46",
+                        "endOffsets": "106,351,254,310,396,159,207"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,109,149,195,250,294,346",
+                        "endColumns": "53,39,45,54,43,51,46",
+                        "endOffsets": "104,144,190,245,289,341,388"
+                    }
+                }
+            ]
+        }
+    ]
+}
