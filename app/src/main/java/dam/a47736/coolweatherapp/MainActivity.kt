@@ -3,7 +3,6 @@ package dam.a47736.coolweatherapp
 import android.Manifest
 import android.content.pm.PackageManager
 import android.content.res.Configuration
-import android.content.res.Resources.Theme
 import android.location.Geocoder
 import android.os.Bundle
 import android.util.Log
@@ -25,9 +24,21 @@ import java.util.Locale
 
 class MainActivity : AppCompatActivity() {
 
-    var day: Boolean = true
+    private var day: Boolean = true
+
     private lateinit var fusedLocationClient: FusedLocationProviderClient
-    lateinit var city : String
+    var city : String? = null
+
+    private var weatherImage : ImageView? = null
+    private var wind : TextView? = null
+    private var temperatura : TextView? = null
+    private var precipitacao : TextView? = null
+    private var humidade : TextView? = null
+    private var cidade : TextView? = null
+
+
+
+
     private val REQUEST_LOCATION_PERMISSION = 100
 
 
@@ -96,7 +107,38 @@ class MainActivity : AppCompatActivity() {
                 }
 
         }
+        println("onCreate")
 
+    }
+
+    override fun onStart() {
+        super.onStart()
+        println("onStart")
+    }
+
+    override fun onResume() {
+        super.onResume()
+        println( "onResume")
+    }
+
+    override fun onPause() {
+        super.onPause()
+        println("onPause")
+    }
+
+    override fun onStop() {
+        super.onStop()
+        println("onStop")
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        println("onDestroy")
+    }
+
+    override fun onRestart() {
+        super.onRestart()
+        println("onRestart")
     }
 
     @Override
@@ -149,36 +191,41 @@ class MainActivity : AppCompatActivity() {
     }
     private fun fetchWeatherData(lat: Float, long: Float) : Thread {
         return Thread {
-            val weather = weatherAPICall(lat,long)
+            val weather : WeatherData = weatherAPICall(lat,long)
             updateUI(weather)
         }
     }
+
+    private fun initViews(){
+        weatherImage = findViewById(R.id.weatherImage)
+        wind = findViewById(R.id.ventoValue)
+        temperatura = findViewById(R.id.temperatureValue)
+        precipitacao = findViewById(R.id.precipitationVal)
+        humidade = findViewById(R.id.humidadeVal)
+        cidade = findViewById(R.id.cidade)
+    }
+
     private fun updateUI(request: WeatherData)
     {
         runOnUiThread {
 
-            val weatherImage : ImageView = findViewById(R.id.weatherImage)
-            val wind : TextView = findViewById(R.id.ventoValue)
-            val temperatura : TextView = findViewById(R.id.temperatureValue)
-            val precipitacao : TextView = findViewById(R.id.precipitationVal)
-            val humidade : TextView = findViewById(R.id.humidadeVal)
-            val cidade : TextView = findViewById(R.id.cidade)
+            initViews()
 
-            temperatura.text = request.current.temperature_2m.toString()
-            wind.text = request.current.wind_speed_10m.toString() + " Km/h"
-            temperatura.text = request.current.temperature_2m.toString() + "ºC"
-            precipitacao.text = request.current.precipitation.toString() + "mm"
-            humidade.text = request.current.relative_humidity_2m.toString() + "%"
-            cidade.text = city
+            wind?.text = request.current.wind_speed_10m.toString() + " Km/h"
+            temperatura?.text = request.current.temperature_2m.toString() + "ºC"
+            precipitacao?.text = request.current.precipitation.toString() + "mm"
+            humidade?.text = request.current.relative_humidity_2m.toString() + "%"
+            cidade?.text = city
+
             day = request.current.is_day == 1
-            day = false
+
             setTheme(R.style.Theme_Night)
             val mapt = getWeatherCodeMap()
             val wCode = mapt.get(1)//request.current.weather_code)
             val wImage = when(wCode) {
                 WMO_WeatherCode.CLEAR_SKY,
                 WMO_WeatherCode.MAINLY_CLEAR,
-                WMO_WeatherCode.PARTLY_CLOUDY->if(day) wCode?.image+"day" else wCode?.image+"night"
+                WMO_WeatherCode.PARTLY_CLOUDY->if(day) wCode.image+"day" else wCode.image+"night"
                 else-> wCode?.image
             }
             try {
@@ -191,9 +238,32 @@ class MainActivity : AppCompatActivity() {
             val res = getResources()
             val resID = res.getIdentifier(wImage, "drawable",getPackageName())
             val drawable = this.getDrawable(resID)
-            weatherImage.setImageDrawable(drawable)
+            weatherImage?.setImageDrawable(drawable)
 
         }
+
+    }
+
+    override fun onSaveInstanceState(outState: Bundle) {
+        super.onSaveInstanceState(outState)
+        outState.putString("temperatura", temperatura?.text.toString())
+        outState.putString("wind", wind?.text.toString())
+        outState.putString("precipitacao", precipitacao?.text.toString())
+        outState.putString("humidade", humidade?.text.toString())
+        outState.putString("cidade", cidade?.text.toString())
+        outState.putBoolean("day", day)
+
+    }
+
+    override fun onRestoreInstanceState(savedInstanceState: Bundle) {
+        super.onRestoreInstanceState(savedInstanceState)
+        initViews()
+        temperatura?.text = savedInstanceState.getString("temperatura")
+        wind?.text = savedInstanceState.getString("wind")
+        precipitacao?.text = savedInstanceState.getString("precipitacao")
+        humidade?.text = savedInstanceState.getString("humidade")
+        cidade?.text = savedInstanceState.getString("cidade")
+        day = savedInstanceState.getBoolean("day")
 
     }
 

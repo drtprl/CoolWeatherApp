@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Cool Weather APP</string>
-    <string name="cidade">Cidade</string>
+    <string name="cidade">Localização</string>
     <string name="humidade">Humidade</string>
     <string name="precipitacao">Precipitação</string>
     <string name="refresh">Atualizar</string>
