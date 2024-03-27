@@ -4,12 +4,28 @@
         "source": "C:\\Users\\duart\\.gradle\\daemon\\8.4\\dam.a47736.coolweatherapp-main-6:\\drawable\\ic_launcher_foreground.xml"
     },
     {
+        "merged": "dam.a47736.coolweatherapp-debug-4:/mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "dam.a47736.coolweatherapp-main-6:/mipmap-mdpi/ic_launcher_foreground.webp"
+    },
+    {
         "merged": "C:\\Users\\duart\\.gradle\\daemon\\8.4\\dam.a47736.coolweatherapp-debug-4:\\drawable_night_bg.jpg.flat",
         "source": "C:\\Users\\duart\\.gradle\\daemon\\8.4\\dam.a47736.coolweatherapp-main-6:\\drawable\\night_bg.jpg"
     },
     {
+        "merged": "dam.a47736.coolweatherapp-debug-4:/mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "dam.a47736.coolweatherapp-main-6:/mipmap-xxhdpi/ic_launcher_foreground.webp"
+    },
+    {
         "merged": "C:\\Users\\duart\\.gradle\\daemon\\8.4\\dam.a47736.coolweatherapp-debug-4:\\drawable_ice_pellets_light.xml.flat",
         "source": "C:\\Users\\duart\\.gradle\\daemon\\8.4\\dam.a47736.coolweatherapp-main-6:\\drawable\\ice_pellets_light.xml"
+    },
+    {
+        "merged": "dam.a47736.coolweatherapp-debug-4:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "dam.a47736.coolweatherapp-main-6:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "dam.a47736.coolweatherapp-debug-4:/mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "dam.a47736.coolweatherapp-main-6:/mipmap-hdpi/ic_launcher_foreground.webp"
     },
     {
         "merged": "C:\\Users\\duart\\.gradle\\daemon\\8.4\\dam.a47736.coolweatherapp-debug-4:\\mipmap-hdpi_ic_launcher.webp.flat",
@@ -20,12 +36,12 @@
         "source": "C:\\Users\\duart\\.gradle\\daemon\\8.4\\dam.a47736.coolweatherapp-main-6:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\duart\\.gradle\\daemon\\8.4\\dam.a47736.coolweatherapp-debug-4:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\duart\\.gradle\\daemon\\8.4\\dam.a47736.coolweatherapp-main-6:\\mipmap-xxxhdpi\\ic_launcher.webp"
-    },
-    {
         "merged": "C:\\Users\\duart\\.gradle\\daemon\\8.4\\dam.a47736.coolweatherapp-debug-4:\\drawable_tstorm.xml.flat",
         "source": "C:\\Users\\duart\\.gradle\\daemon\\8.4\\dam.a47736.coolweatherapp-main-6:\\drawable\\tstorm.xml"
+    },
+    {
+        "merged": "C:\\Users\\duart\\.gradle\\daemon\\8.4\\dam.a47736.coolweatherapp-debug-4:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\duart\\.gradle\\daemon\\8.4\\dam.a47736.coolweatherapp-main-6:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
         "merged": "C:\\Users\\duart\\.gradle\\daemon\\8.4\\dam.a47736.coolweatherapp-debug-4:\\drawable_snow_light.xml.flat",
@@ -44,6 +60,10 @@
         "source": "C:\\Users\\duart\\.gradle\\daemon\\8.4\\dam.a47736.coolweatherapp-main-6:\\drawable\\ice_pellets.xml"
     },
     {
+        "merged": "dam.a47736.coolweatherapp-debug-4:/mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "dam.a47736.coolweatherapp-main-6:/mipmap-xxxhdpi/ic_launcher_foreground.webp"
+    },
+    {
         "merged": "C:\\Users\\duart\\.gradle\\daemon\\8.4\\dam.a47736.coolweatherapp-debug-4:\\drawable_mostly_cloudy.xml.flat",
         "source": "C:\\Users\\duart\\.gradle\\daemon\\8.4\\dam.a47736.coolweatherapp-main-6:\\drawable\\mostly_cloudy.xml"
     },
@@ -60,24 +80,40 @@
         "source": "C:\\Users\\duart\\.gradle\\daemon\\8.4\\dam.a47736.coolweatherapp-main-6:\\drawable\\rain_light.xml"
     },
     {
-        "merged": "C:\\Users\\duart\\.gradle\\daemon\\8.4\\dam.a47736.coolweatherapp-debug-4:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\duart\\.gradle\\daemon\\8.4\\dam.a47736.coolweatherapp-main-6:\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "C:\\Users\\duart\\.gradle\\daemon\\8.4\\dam.a47736.coolweatherapp-debug-4:\\drawable_freezing_drizzle.xml.flat",
+        "source": "C:\\Users\\duart\\.gradle\\daemon\\8.4\\dam.a47736.coolweatherapp-main-6:\\drawable\\freezing_drizzle.xml"
     },
     {
         "merged": "C:\\Users\\duart\\.gradle\\daemon\\8.4\\dam.a47736.coolweatherapp-debug-4:\\drawable_partly_cloudy_night.xml.flat",
         "source": "C:\\Users\\duart\\.gradle\\daemon\\8.4\\dam.a47736.coolweatherapp-main-6:\\drawable\\partly_cloudy_night.xml"
     },
     {
-        "merged": "C:\\Users\\duart\\.gradle\\daemon\\8.4\\dam.a47736.coolweatherapp-debug-4:\\drawable_freezing_drizzle.xml.flat",
-        "source": "C:\\Users\\duart\\.gradle\\daemon\\8.4\\dam.a47736.coolweatherapp-main-6:\\drawable\\freezing_drizzle.xml"
+        "merged": "C:\\Users\\duart\\.gradle\\daemon\\8.4\\dam.a47736.coolweatherapp-debug-4:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\duart\\.gradle\\daemon\\8.4\\dam.a47736.coolweatherapp-main-6:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
         "merged": "C:\\Users\\duart\\.gradle\\daemon\\8.4\\dam.a47736.coolweatherapp-debug-4:\\drawable_mostly_clear_day.xml.flat",
         "source": "C:\\Users\\duart\\.gradle\\daemon\\8.4\\dam.a47736.coolweatherapp-main-6:\\drawable\\mostly_clear_day.xml"
     },
     {
+        "merged": "dam.a47736.coolweatherapp-debug-4:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "dam.a47736.coolweatherapp-main-6:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
         "merged": "C:\\Users\\duart\\.gradle\\daemon\\8.4\\dam.a47736.coolweatherapp-debug-4:\\drawable_fog.xml.flat",
         "source": "C:\\Users\\duart\\.gradle\\daemon\\8.4\\dam.a47736.coolweatherapp-main-6:\\drawable\\fog.xml"
+    },
+    {
+        "merged": "dam.a47736.coolweatherapp-debug-4:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "dam.a47736.coolweatherapp-main-6:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "dam.a47736.coolweatherapp-debug-4:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "dam.a47736.coolweatherapp-main-6:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "dam.a47736.coolweatherapp-debug-4:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "dam.a47736.coolweatherapp-main-6:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
         "merged": "C:\\Users\\duart\\.gradle\\daemon\\8.4\\dam.a47736.coolweatherapp-debug-4:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
@@ -96,10 +132,6 @@
         "source": "C:\\Users\\duart\\.gradle\\daemon\\8.4\\dam.a47736.coolweatherapp-main-6:\\drawable\\night_bg_land.jpg"
     },
     {
-        "merged": "dam.a47736.coolweatherapp-debug-4:/layout-land_activity_main.xml.flat",
-        "source": "dam.a47736.coolweatherapp-main-6:/layout-land/activity_main.xml"
-    },
-    {
         "merged": "C:\\Users\\duart\\.gradle\\daemon\\8.4\\dam.a47736.coolweatherapp-debug-4:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\duart\\.gradle\\daemon\\8.4\\dam.a47736.coolweatherapp-main-6:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
@@ -112,28 +144,56 @@
         "source": "C:\\Users\\duart\\.gradle\\daemon\\8.4\\dam.a47736.coolweatherapp-main-6:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
+        "merged": "dam.a47736.coolweatherapp-debug-4:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "dam.a47736.coolweatherapp-main-6:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
         "merged": "C:\\Users\\duart\\.gradle\\daemon\\8.4\\dam.a47736.coolweatherapp-debug-4:\\drawable_partly_cloudy_day.xml.flat",
         "source": "C:\\Users\\duart\\.gradle\\daemon\\8.4\\dam.a47736.coolweatherapp-main-6:\\drawable\\partly_cloudy_day.xml"
+    },
+    {
+        "merged": "dam.a47736.coolweatherapp-debug-4:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "dam.a47736.coolweatherapp-main-6:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "dam.a47736.coolweatherapp-debug-4:/mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "dam.a47736.coolweatherapp-main-6:/mipmap-xhdpi/ic_launcher_foreground.webp"
     },
     {
         "merged": "C:\\Users\\duart\\.gradle\\daemon\\8.4\\dam.a47736.coolweatherapp-debug-4:\\drawable_mostly_clear_night.xml.flat",
         "source": "C:\\Users\\duart\\.gradle\\daemon\\8.4\\dam.a47736.coolweatherapp-main-6:\\drawable\\mostly_clear_night.xml"
     },
     {
+        "merged": "dam.a47736.coolweatherapp-debug-4:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "dam.a47736.coolweatherapp-main-6:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
         "merged": "C:\\Users\\duart\\.gradle\\daemon\\8.4\\dam.a47736.coolweatherapp-debug-4:\\drawable_snow.xml.flat",
         "source": "C:\\Users\\duart\\.gradle\\daemon\\8.4\\dam.a47736.coolweatherapp-main-6:\\drawable\\snow.xml"
+    },
+    {
+        "merged": "dam.a47736.coolweatherapp-debug-4:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "dam.a47736.coolweatherapp-main-6:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "dam.a47736.coolweatherapp-debug-4:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "dam.a47736.coolweatherapp-main-6:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "dam.a47736.coolweatherapp-debug-4:/drawable_ic_launcher_background.xml.flat",
+        "source": "dam.a47736.coolweatherapp-main-6:/drawable/ic_launcher_background.xml"
     },
     {
         "merged": "C:\\Users\\duart\\.gradle\\daemon\\8.4\\dam.a47736.coolweatherapp-debug-4:\\drawable_freezing_rain.xml.flat",
         "source": "C:\\Users\\duart\\.gradle\\daemon\\8.4\\dam.a47736.coolweatherapp-main-6:\\drawable\\freezing_rain.xml"
     },
     {
-        "merged": "C:\\Users\\duart\\.gradle\\daemon\\8.4\\dam.a47736.coolweatherapp-debug-4:\\drawable_freezing_rain_heavy.xml.flat",
-        "source": "C:\\Users\\duart\\.gradle\\daemon\\8.4\\dam.a47736.coolweatherapp-main-6:\\drawable\\freezing_rain_heavy.xml"
-    },
-    {
         "merged": "C:\\Users\\duart\\.gradle\\daemon\\8.4\\dam.a47736.coolweatherapp-debug-4:\\layout-land_activity_main.xml.flat",
         "source": "C:\\Users\\duart\\.gradle\\daemon\\8.4\\dam.a47736.coolweatherapp-main-6:\\layout-land\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\duart\\.gradle\\daemon\\8.4\\dam.a47736.coolweatherapp-debug-4:\\drawable_freezing_rain_heavy.xml.flat",
+        "source": "C:\\Users\\duart\\.gradle\\daemon\\8.4\\dam.a47736.coolweatherapp-main-6:\\drawable\\freezing_rain_heavy.xml"
     },
     {
         "merged": "C:\\Users\\duart\\.gradle\\daemon\\8.4\\dam.a47736.coolweatherapp-debug-4:\\drawable_ic_launcher_background.xml.flat",
@@ -146,6 +206,10 @@
     {
         "merged": "C:\\Users\\duart\\.gradle\\daemon\\8.4\\dam.a47736.coolweatherapp-debug-4:\\drawable_freezing_rain_light.xml.flat",
         "source": "C:\\Users\\duart\\.gradle\\daemon\\8.4\\dam.a47736.coolweatherapp-main-6:\\drawable\\freezing_rain_light.xml"
+    },
+    {
+        "merged": "dam.a47736.coolweatherapp-debug-4:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "dam.a47736.coolweatherapp-main-6:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
         "merged": "C:\\Users\\duart\\.gradle\\daemon\\8.4\\dam.a47736.coolweatherapp-debug-4:\\xml_data_extraction_rules.xml.flat",
@@ -194,5 +258,9 @@
     {
         "merged": "C:\\Users\\duart\\.gradle\\daemon\\8.4\\dam.a47736.coolweatherapp-debug-4:\\drawable_clear_day.xml.flat",
         "source": "C:\\Users\\duart\\.gradle\\daemon\\8.4\\dam.a47736.coolweatherapp-main-6:\\drawable\\clear_day.xml"
+    },
+    {
+        "merged": "dam.a47736.coolweatherapp-debug-4:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "dam.a47736.coolweatherapp-main-6:/mipmap-anydpi-v26/ic_launcher_round.xml"
     }
 ]
