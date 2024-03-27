@@ -3340,6 +3340,10 @@ int id guideline 0x7f0800d6
 int id guideline2 0x7f0800d7
 int id guideline3 0x7f0800d8
 int id guideline4 0x7f0800d9
+int id guideline5 0x7f080207
+int id guideline6 0x7f080208
+int id guideline7 0x7f080209
+int id guideline8 0x7f08020a
 int id header_title 0x7f0800da
 int id hideable 0x7f0800db
 int id home 0x7f0800dc

@@ -5,6 +5,6 @@
     <string name="temperatura">Temperatura</string>
     <string name="humidade">Humidade</string>
     <string name="precipitacao">Precipitação</string>
-    <string name="cidade">Cidade</string>
+    <string name="cidade">Localização</string>
     <string name="refresh">Atualizar</string>
 </resources>

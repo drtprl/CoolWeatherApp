@@ -9,7 +9,7 @@
     <color name="viewBG">#FFF9C4</color>
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">Cool Weather APP</string>
-    <string name="cidade">Cidade</string>
+    <string name="cidade">Localização</string>
     <string name="humidade">Humidade</string>
     <string name="humidade_val" translatable="false"/>
     <string name="precipitacao">Precipitação</string>
@@ -30,6 +30,7 @@
         <item name="colorSecondary">@color/teal_200</item>
         <item name="colorSecondaryVariant">@color/teal_700</item>
         <item name="colorOnSecondary">@color/black</item>
+
         
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         

@@ -5,6 +5,6 @@
     <string name="vento_vel">Wind Vel</string>
     <string name="humidade">Humidity</string>
     <string name="precipitacao">Precipitation</string>
-    <string name="cidade">City</string>
+    <string name="cidade">Actual Location</string>
     <string name="refresh">Refresh</string>
 </resources>

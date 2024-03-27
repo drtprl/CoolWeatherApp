@@ -8,7 +8,7 @@
     <string name="vento_vel_val" translatable="false" />
     <string name="precipitacao">Precipitação</string>
     <string name="precipitacao_val" translatable="false" />
-    <string name="cidade">Cidade</string>
+    <string name="cidade">Localização</string>
     <string name="weather_icon" translatable="false">Weather Icon</string>
     <string name="refresh">Refresh</string>
 </resources>

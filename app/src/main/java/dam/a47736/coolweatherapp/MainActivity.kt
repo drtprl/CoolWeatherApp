@@ -13,6 +13,7 @@ import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
+import androidx.core.content.ContextCompat
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.google.android.gms.location.FusedLocationProviderClient
@@ -27,6 +28,7 @@ class MainActivity : AppCompatActivity() {
     var day: Boolean = true
     private lateinit var fusedLocationClient: FusedLocationProviderClient
     lateinit var city : String
+    private val REQUEST_LOCATION_PERMISSION = 100
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -62,13 +64,25 @@ class MainActivity : AppCompatActivity() {
                     Manifest.permission.ACCESS_COARSE_LOCATION
                 ) != PackageManager.PERMISSION_GRANTED
             ) {
-                // TODO: Consider calling
-                //    ActivityCompat#requestPermissions
-                // here to request the missing permissions, and then overriding
-                //   public void onRequestPermissionsResult(int requestCode, String[] permissions,
-                //                                          int[] grantResults)
-                // to handle the case where the user grants the permission. See the documentation
-                // for ActivityCompat#requestPermissions for more details.
+                if (ContextCompat.checkSelfPermission(
+                        this,
+                        Manifest.permission.ACCESS_FINE_LOCATION
+                    ) != PackageManager.PERMISSION_GRANTED
+                ) {
+                    ActivityCompat.requestPermissions(
+                        this,
+                        arrayOf(Manifest.permission.ACCESS_FINE_LOCATION),
+                        REQUEST_LOCATION_PERMISSION
+                    )
+                }
+                /*
+                TODO: Consider calling
+                   ActivityCompat#requestPermissions
+                 here to request the missing permissions, and then overriding
+                   public void onRequestPermissionsResult(int requestCode, String[] permissions,
+                                                          int[] grantResults)
+                 to handle the case where the user grants the permission. See the documentation
+                 for ActivityCompat#requestPermissions for more details.*/
                 return@setOnClickListener
             }
             fusedLocationClient.lastLocation
@@ -83,6 +97,22 @@ class MainActivity : AppCompatActivity() {
 
         }
 
+    }
+
+    @Override
+    override fun onRequestPermissionsResult(
+        requestCode: Int,
+        permissions: Array<out String>,
+        grantResults: IntArray
+    ) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults)
+        if (requestCode == REQUEST_LOCATION_PERMISSION) {
+            if (grantResults.isNotEmpty() && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                // Permiso de ubicación concedido, puedes realizar las operaciones relacionadas con la ubicación aquí
+            } else {
+                // Permiso de ubicación denegado, muestra un mensaje al usuario o toma alguna otra acción
+            }
+        }
     }
     private fun nomeLocalizacao(lat: Double, long: Double) : String{
         val geocoder = Geocoder(this, Locale.getDefault())

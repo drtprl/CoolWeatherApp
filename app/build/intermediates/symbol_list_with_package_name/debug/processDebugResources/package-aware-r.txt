@@ -3341,6 +3341,10 @@ id guideline
 id guideline2
 id guideline3
 id guideline4
+id guideline5
+id guideline6
+id guideline7
+id guideline8
 id header_title
 id hideable
 id home
