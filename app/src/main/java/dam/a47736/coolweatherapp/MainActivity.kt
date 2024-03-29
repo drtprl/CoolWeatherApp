@@ -211,9 +211,9 @@ class MainActivity : AppCompatActivity() {
 
             initViews()
 
-            wind?.text = getString(R.string.vento_vel_val, request.current.wind_speed_10m)
-            temperatura?.text = getString(R.string.temperatura_valor, request.current.temperature_2m)
-            precipitacao?.text = getString(R.string.precipitacao_val, request.current.precipitation)
+            wind?.text = getString(R.string.vento_vel_val, request.current.wind_speed_10m.toInt())
+            temperatura?.text = getString(R.string.temperatura_valor, request.current.temperature_2m.toInt())
+            precipitacao?.text = getString(R.string.precipitacao_val, request.current.precipitation.toInt())
             humidade?.text = getString(R.string.humidade_val, request.current.relative_humidity_2m)
             cidade?.text = city
 
