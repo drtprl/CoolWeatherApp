@@ -11,14 +11,14 @@
     <string name="app_name">Cool Weather APP</string>
     <string name="cidade">Localização</string>
     <string name="humidade">Humidade</string>
-    <string name="humidade_val" translatable="false">%d %%</string>
+    <string name="humidade_val" translatable="false">%d%%</string>
     <string name="precipitacao">Precipitação</string>
-    <string name="precipitacao_val" translatable="false">%d mm</string>
+    <string name="precipitacao_val" translatable="false">%dmm</string>
     <string name="refresh">Refresh</string>
     <string name="temperatura">Temperatura</string>
-    <string name="temperatura_valor" translatable="false">%d ºC</string>
+    <string name="temperatura_valor" translatable="false">%dºC</string>
     <string name="vento_vel">Vel Vento</string>
-    <string name="vento_vel_val" translatable="false">%d km/h</string>
+    <string name="vento_vel_val" translatable="false">%dkm/h</string>
     <string name="weather_icon" translatable="false">Weather Icon</string>
     <style name="Base.Theme.CoolWeatherAPP" parent="Theme.Material3.DayNight.NoActionBar">
         

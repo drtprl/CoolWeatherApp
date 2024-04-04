@@ -1,6 +1,7 @@
 package dam.a47736.coolweatherapp
 
 import android.Manifest
+import android.annotation.SuppressLint
 import android.content.pm.PackageManager
 import android.content.res.Configuration
 import android.location.Geocoder
@@ -11,6 +12,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
+import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import androidx.core.view.ViewCompat
@@ -51,15 +53,7 @@ class MainActivity : AppCompatActivity() {
             insets
         }
 
-        when (resources.configuration.orientation) {
-            Configuration.ORIENTATION_PORTRAIT->
-                if(day) setTheme(R.style.Theme_Day)
-                else setTheme(R.style.Theme_Night)
-            Configuration.ORIENTATION_LANDSCAPE->
-                if(day) setTheme(R.style.Theme_Day_Land)
-                else setTheme(R.style.Theme_Night_Land)
-            Configuration.ORIENTATION_UNDEFINED ->{}
-        }
+
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
@@ -165,10 +159,9 @@ class MainActivity : AppCompatActivity() {
                     val address = addresses[0]
                     val cityName = address.locality
                     Log.d("Location", "Ciudad: $cityName")
-                    // Aquí puedes usar los datos de la dirección como desees
                     return cityName
                 } else {
-                    Log.e("Location", "No se encontraron direcciones para la ubicación proporcionada.")
+                    Log.e("Location", "Não foram encontrados dados sobre este localidade.")
                 }
             }
         } catch (e: Exception) {
@@ -219,7 +212,6 @@ class MainActivity : AppCompatActivity() {
 
             day = request.current.is_day == 1
 
-            setTheme(R.style.Theme_Night)
             val mapt = getWeatherCodeMap()
             val wCode = mapt.get(1)//request.current.weather_code)
             val wImage = when(wCode) {
@@ -228,10 +220,16 @@ class MainActivity : AppCompatActivity() {
                 WMO_WeatherCode.PARTLY_CLOUDY->if(day) wCode.image+"day" else wCode.image+"night"
                 else-> wCode?.image
             }
-            try {
-                if(day) setTheme(R.style.Theme_Day) else setTheme(R.style.Theme_Night)
-            }catch (e:Exception){
-                Log.e("TAG", "Error: ${e.message}", e)
+            val container = findViewById<ConstraintLayout>(R.id.container)
+            when (resources.configuration.orientation) {
+                Configuration.ORIENTATION_PORTRAIT->
+                    if(day) container.setBackgroundResource(R.drawable.sunny_bg)
+                    else container.setBackgroundResource(R.drawable.night_bg)
+                Configuration.ORIENTATION_LANDSCAPE->
+                    if(day) container.setBackgroundResource(R.drawable.sunny_bg_land)
+                    else container.setBackgroundResource(R.drawable.night_bg_land)
+                Configuration.ORIENTATION_UNDEFINED ->{}
+                Configuration.ORIENTATION_SQUARE ->{}
             }
 
             //cidade.text = wCode?.image + " "+ cidade.text
